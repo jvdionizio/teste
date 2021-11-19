@@ -9,7 +9,7 @@
         "editor.tabSize": 2,
         "editor.fontSize": 16,
         "editor.lineHeight": 26,
-        "editor.fontFamily": "JetBrains Mono",
+        "editor.fontFamily": "Fira Code",
         "terminal.integrated.shell.linux": "/bin/zsh",
         "editor.fontLigatures": true,
         "editor.semanticHighlighting.enabled": false,
