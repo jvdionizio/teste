@@ -1,0 +1,39 @@
+h2{
+  color:darkgreen;
+}
+body{
+  background-color: rgb(255,255,255);
+  font-family: monospace;
+  font-size: 20px;
+}
+#jorney{
+  background-color: green;
+}
+.list-style{
+  background-color: rgba(54, 58, 58, 0.473);
+  width: 260px;
+  margin: auto;
+  color: firebrick;
+  border-radius: 10px;
+}
+.pictures{
+  border-radius: 100%;
+  margin: 30px auto;
+}
+.button{
+  text-decoration: none;
+  line-height: 20px;
+  background: #11a36a;
+  margin: 30px auto;
+  padding: 5px;
+  border-radius: 4px;
+  display: block;
+  width: 125px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  transition: 1s;
+}
+.button:hover{
+  background-color: #0a7e51;
+}
