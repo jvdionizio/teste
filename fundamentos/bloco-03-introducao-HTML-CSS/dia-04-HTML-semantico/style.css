@@ -1,0 +1,17 @@
+.verde {
+  color: green;
+}
+.azul {
+  color: blue;
+}
+.vermelho {
+  color: red;
+}
+.gradiente {
+  color: white;
+  background: linear-gradient(to bottom left, #33ccff 15%, #ff99cc 85%);
+}
+.link {
+  text-decoration: none;
+  color: blue;
+}
