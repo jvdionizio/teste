@@ -158,5 +158,5 @@
         ],
         "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
         "security.workspace.trust.untrustedFiles": "newWindow",
-        "window.zoomLevel": 0
+        "window.zoomLevel": -1
        }
