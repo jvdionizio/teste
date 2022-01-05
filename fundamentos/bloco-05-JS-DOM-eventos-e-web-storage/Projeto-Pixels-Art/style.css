@@ -1,0 +1,42 @@
+#color-palette div{
+  display: inline-block;
+}
+
+#preto{
+  background-color: black;
+}
+
+#vermelho {
+  background-color: red;
+}
+
+#verde {
+  background-color:green;
+}
+
+#azul {
+  background-color: blue;
+}
+
+#amarelo {
+  background-color: yellow;
+}
+
+.pixel-board {
+  margin : 0 auto;
+}
+
+.pixel{
+  display: inline-block;
+  width:40px;
+  height:40px;
+  border: solid 1px;
+  background-color:white;
+}
+
+.color {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  border: solid 1px;
+}
