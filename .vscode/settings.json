@@ -1,7 +1,7 @@
 {
          "terminal.integrated.fontSize": 14,
       
-        "workbench.iconTheme": "material-icon-theme",
+        "workbench.iconTheme": "sweet-vscode-icons",
         "workbench.startupEditor": "newUntitledFile",
       
         "polacode.backgroundColor": "#6633CC",
@@ -106,7 +106,7 @@
           "dotenv": "tune"
         },
       
-        "workbench.colorTheme": "Default High Contrast",
+        "workbench.colorTheme": "Sweet vscode",
         "window.menuBarVisibility": "toggle",
         "typescript.updateImportsOnFileMove.enabled": "never",
         "tabnine.experimentalAutoImports": true,
@@ -143,7 +143,7 @@
           "upsert"
         ],
         "javascript.updateImportsOnFileMove.enabled": "always",
-        "workbench.productIconTheme": "fluent-icons",
+        "workbench.productIconTheme": "Default",
         "terminal.integrated.showExitAlert": false,
     
         "splitHTMLAttributes.closingBracketOnNewLine": true,
