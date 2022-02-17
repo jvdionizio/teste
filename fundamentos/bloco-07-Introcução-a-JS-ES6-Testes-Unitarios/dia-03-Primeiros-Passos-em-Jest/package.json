@@ -1,0 +1,14 @@
+{
+  "name": "dia-03-primeiros-passos-em-jest",
+  "version": "1.0.0",
+  "description": "Exercicios do dia 3 do bloco 7, treinando Teste Unitarios",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}

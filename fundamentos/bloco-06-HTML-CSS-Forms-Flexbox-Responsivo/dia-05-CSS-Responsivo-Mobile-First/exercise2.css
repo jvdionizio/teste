@@ -1,0 +1,187 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+header {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+header p {
+  font-size:1.4rem;
+}
+
+body{
+  margin: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  font-size:1.4rem;
+}
+
+h3 {
+  font-size:1.4rem;
+}
+
+header a {
+  color: #000;
+  font-weight: 700;
+}
+
+header nav {
+  display: flex;
+}
+
+.aside-one{
+  margin-top: 150px;
+}
+
+.aside-one ul {
+  font-size: 1.2rem;
+}
+
+.aside-two ul{
+  font-size: 1.2rem;
+}
+
+.main-content p{
+  font-size: 1.3rem;
+}
+
+footer p{
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width: 600px) {
+  header nav ul {
+    display: flex;
+  }
+
+  header nav ul li {
+    margin-right: 5px;
+  }
+  
+  h3{
+    font-size: 1rem;
+  }
+
+  header {
+    position: fixed;
+  }
+
+  .aside-one{
+    margin-top: 120px;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  .main-content p{
+    font-size: 1.1rem;
+  }
+
+  footer p{
+    font-size: 1rem
+  }
+
+  .aside-two ul{
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size:1.2rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  header nav ul {
+    display: flex;
+  }
+
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  h3{
+    font-size: 1rem;
+  }
+
+  header {
+    position: fixed;
+  }
+
+  .aside-one{
+    margin-top: 0;
+  }
+
+  h1{
+    font-size: 1.7rem;
+  }
+
+  .main-content p{
+    font-size: 1.2rem;
+  }
+
+  footer p{
+    font-size: 1rem
+  }
+
+  .aside-two ul{
+    font-size: 0.9rem;
+  }
+
+  .aside-one ul {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size:1.2rem;
+  }
+
+  .main-block{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-block .asides{
+    flex-basis: 15%;
+  }
+
+  .main-block .main-content{
+    flex-basis: 80%;
+  }
+
+  .asides{
+    display: flex;
+    flex-direction: column;
+  }
+
+  hr{
+    width: 80%;
+  }
+
+  .aside-one ul li{
+    margin-top:5px;
+  }
+} 
